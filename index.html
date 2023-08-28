@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forstbetrieb Malte Utsch</title>
+    <script src="/javascript/script.js"></script>
+    <script src="/javascript/workInfos.json"></script>
+    <script src="/javascript/templates.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsiv.css">
+    <link rel="stylesheet" href="contact.php">
+    <link rel="shortcut icon" href="img/favicon.ico.png" type="image/x-icon">
+</head>
+
+<body onload="renderInfos()">
+    <!-------( Header )---------------------------------------------------------------------------------------->
+
+    <my-header></my-header>
+
+    <!-------( Seite )---------------------------------------------------------------------------------------->
+
+    <div>
+        <h1 class="headline">
+            Forstbetrieb
+            <br>
+            Malte <img class="headlineImg" src="img/baumLogo.png"> Utsch
+        </h1>
+        <img src="./img/backgroundImg.jpg" class="backgroundHomeImg">
+    </div>
+
+    <!-------( Seite - Über uns )---------------------------------------------------------------------------------------->
+
+    <div class="aboutUs" id="aboutUs">
+        <h2>Über uns</h2>
+
+        <span class="aboutUsText">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime minima dignissimos omnis pariatur sapiente
+            animi ab minus quaerat molestiae corrupti ipsa atque recusandae numquam dolorem quo, illo obcaecati possimus
+            ipsam.
+            Laboriosam fugit maiores consectetur tempore odit explicabo! Nesciunt ducimus atque libero ea dolores
+            praesentium, ab culpa voluptatem sapiente earum laboriosam blanditiis sequi, minima cum assumenda facilis
+            dolor error veniam doloremque.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi vel similique soluta dolorum eum facere modi
+            cumque. Eum ullam expedita doloribus molestias accusamus iste quaerat. Culpa doloremque provident nihil
+            distinctio.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident necessitatibus ut soluta voluptatum
+            nesciunt officia, doloremque nemo expedita sapiente illum hic? Corporis, commodi! Sequi impedit praesentium
+            iusto non earum?
+        </span>
+    </div>
+
+    <!-------( Seite - Leistungen )---------------------------------------------------------------------------------------->
+
+    <div class="serviceBackground" id="services">
+
+        <h5>Unsere Leistungen</h5>
+
+        <div class="serviceHeaderDiv">
+
+            <div id="showInfos" class="d-none"></div>
+
+            <div id="infos"></div>
+
+        </div>
+
+    </div>
+
+    <!-------( Seite - Unser Team )---------------------------------------------------------------------------------------->
+
+    <div class="usTeamHeadline" id="ourTeam">
+        <h4 class="usTeamH4">Unser Team</h4>
+
+        <div class="usTeam">
+
+            <div class="usTeamDiv">
+                <img src="./img/person.png">
+                <div class="usTeamNameDiv">
+                    <span class="teamName">Malte Utsch</span>
+                    <span class="teamPosition">Chef</span>
+                </div>
+            </div>
+
+            <div class="usTeamDiv">
+                <img src="./img/person.png">
+                <div class="usTeamNameDiv">
+                    <span class="teamName">Julian Kötting</span>
+                    <span class="teamPosition">Angestellter</span>
+                </div>
+            </div>
+
+            <div class="usTeamDiv">
+                <img src="./img/person.png">
+                <div class="usTeamNameDiv">
+                    <span class="teamName">Micha Wiegel</span>
+                    <span class="teamPosition">Aushilfe</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-------( Seite - Kontaktformular )---------------------------------------------------------------------------------------->
+
+    <!-- <div class="contactForm d-none" id="contactForm">
+
+        <span class="contactHeadline">Kontaktformular</span>
+
+        <form action="contact.php" method="post">
+            <input class="inputContact" id="firstName" type="text" name="firstName" placeholder="Vorname*" required>
+            <input class="inputContact" id="lastName" type="text" name="LastName" placeholder="Nachname*" required>
+            <input class="inputContact" id="eMail" type="email" name="eMail" placeholder="Email*" required>
+            <input class="inputContact" id="tel" type="number" name="tel" placeholder="Telefon/Mobile*" required>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Nachricht*" required></textarea>
+            
+            
+            <div class="checkboxDiv">
+                <input name="checkbox" type="checkbox" id="checkbox" required>
+                <span>
+                    Ja, ich habe die <a class="contactPrivacy" href="datenschutz.html"
+                        target="_blank">Datenschutzerklärung</a> zur
+                    Kenntnis genommen und bin mit
+                    der
+                    Speicherung meiner Daten zum Zweck der Bearbeitung meiner Anfrage und für eventuelle Rückfragen
+                    einverstanden.
+                </span>
+            </div>
+
+
+            <button type="submit" id="contactButton" class="contactButton" onclick="checkInputValue()">Abschicken</button>
+
+            <button id="contactButtonLoading" class="contactButtonLoading d-none">Wird abgeschickt... <div
+                    class="loader"></div></button>
+        </form>
+    </div> -->
+
+    <!-------( Footer )---------------------------------------------------------------------------------------->
+
+    <my-footer></my-footer>
+
+</body>
+
+</html>

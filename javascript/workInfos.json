@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Gefahrbaumfällungen",
+        "img": "./img/gefahrbaumfällungen.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam doloribus ipsa iure provident error sint similique vero facere tempora nobis et iste dolorum, temporibus maxime quis ut eum ipsum itaque.",
+        "id": "1"
+    },
+    {
+        "name": "Seilklettertechnik",
+        "img": "./img/Seilklettertechnik.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam doloribus ipsa iure provident error sint similique vero facere tempora nobis et iste dolorum, temporibus maxime quis ut eum ipsum itaque.",
+        "id": "2"
+    },
+    {
+        "name": "Landschaftspflege",
+        "img": "./img/landschaftspflege.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam doloribus ipsa iure provident error sint similique vero facere tempora nobis et iste dolorum, temporibus maxime quis ut eum ipsum itaque.",
+        "id": "3"
+    },
+    {
+        "name": "Brennholzverkauf",
+        "img": "./img/brennholzverkauf.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam doloribus ipsa iure provident error sint similique vero facere tempora nobis et iste dolorum, temporibus maxime quis ut eum ipsum itaque.",
+        "id": "4"
+    },
+    {
+        "name": "Bautätigkeiten",
+        "img": "./img/forstdienstleistungen.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam doloribus ipsa iure provident error sint similique vero facere tempora nobis et iste dolorum, temporibus maxime quis ut eum ipsum itaque.",
+        "id": "5"
+    }
+]
